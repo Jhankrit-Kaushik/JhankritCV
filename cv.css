@@ -1,0 +1,49 @@
+body 
+{ max-width: 1000px;
+  margin: auto;  
+  color:  rgb(255, 255, 255);
+  font-family: cursive;
+  background-color: #07011f;
+  background-image:
+    radial-gradient(#351103 25%, transparent 0%),
+    radial-gradient(#351103 25%, transparent 0%);
+  background-position: 0 0, 7.5px 7.5px;
+  background-size: 15px 15px;
+  text-align: center;    
+}
+.header {
+  padding: 10px 16px ;
+  color: #f1f1f1;
+  font-family: "Lucida Console", "Courier New", monospace;
+  background-color:rgb(77, 197, 177);  
+}
+.content {
+  padding: 16px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 970px;
+  margin: auto;
+}
+.sticky + .content {
+  padding-top: 102px;
+}
+.name {
+  font-family: "Lucida Console", "Courier New", monospace;
+  background-color:rgb(77, 197, 177);
+  text-align: center;
+}
+.heading {
+  font-family: "Lucida Console", "Courier New", monospace;
+  background-color:rgb(211, 128, 236);
+}
+.flex-container {
+  display: flex;
+}
+.flex-child {
+  flex: 1;
+}
+.flex-child:first-child {
+  margin-right: 50px;
+}

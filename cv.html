@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+   <title>C.V.</title>
+   <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@700&family=Fira+Sans:wght@400;500;700&family=Satisfy&family=Sriracha&family=Kaushan+Script&display=swap" />
+   <link rel="stylesheet"
+    href="cv.css">
+</head>
+<body>
+  <div class="header" id="myHeader" text-align:"center"><h1> Jhankrit Kaushik</h1></div>
+  <h3 class="float-container">
+    <div class="float-child">
+      <div class="green"><img src="MYPHOTO.jpg" alt="My Photo" align="left" style="width:115px;height:130px;"></div>
+    </div>
+    <div class="float-child">
+      <div class="blue"><p style="text-align:right;">102015181<br>jkaushik_be20@thapar.edu<br>8368846856</p></div>
+    </div>
+  </h3>
+  <br><br><br>
+  
+  <hr style="height:2px;"/>
+  <div class="content">
+    <h3 class="heading" >Introduction</h3>
+    <p style="text-align: center;"> I am a hardworking and ambitious individual with a great passion for the Database Management System. I am currently in my third year of studying BE Electronics and Computers Engineering at Thapar University. I have excellent communication skills, enabling me to effectively communicate with a wide range of people. I am seeing a part-time position in the industry in which I can put into practice my knowledge and experience, ultimately benefiting the operations of the organisation that I work for.</p>
+    <div class="flex-container">
+      <div class="flex-child magenta">
+        <h3 class="heading" style="margin-right: auto;"">Education</h3>
+          <ul style="text-align:left;">
+          <li>Thapar University (BE ENC24)</li>
+          <li>CRPF Public School,Dwarka (Senior Secondary Education)</li>
+          </ul>
+      </div>
+      <div class="flex-child green">
+        <h3 class="heading">Skills</h3>
+          <ul style="text-align:left;">
+          <li>Programming
+            <ul>
+            <li>C/C++</li>
+            <li>HTML</li>
+            <li>SQL</li>
+            </ul>
+          <li>Computer Science</li>
+          <li>Marketing</li>
+          <li>Software Testing and QA</li>
+          </ul>
+      </div>
+    </div>
+    <h3 class="heading">Experience</h3>
+    <ul style="text-align:left;">
+      <div class="flex-container">
+        <div class="flex-child magenta"><li>Jubilant Foodworks Intern (Software testing and QA)</li></div>      
+        <div class="flex-child green"><li>SOS nutrition Intern (Marketing and Product Management)</li></div>      
+      </div>
+    </ul>
+    <h3 class="heading">Hobbies and Interests</h3>
+    <p>In my spare time, I enjoy reading up on the latest developments in technology. I am also an avid sports fan, and cricket is my favorite. Health and fitness are a priority for me, and I work hard to stay fit and teach our children healthy habits.</p>
+  </div>
+  <script>
+    window.onscroll = function() {myFunction()};
+    
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;    
+    function myFunction() {
+      if (window.pageYOffset > sticky) {header.classList.add("sticky");} 
+      else {header.classList.remove("sticky");}
+    }
+    </script>
+</body>
+</html>
